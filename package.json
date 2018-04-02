@@ -1,0 +1,27 @@
+{
+  "name": "amenity-server",
+  "version": "1.0.0",
+  "description": "the amenity server for amenity",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ershing/amenity-server.git"
+  },
+  "keywords": [
+    "amenity",
+    "server"
+  ],
+  "author": "ershing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ershing/amenity-server/issues"
+  },
+  "homepage": "https://github.com/ershing/amenity-server#readme",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  }
+}
